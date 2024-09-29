@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+* {
+        font-family: "Fredoka", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornsilk;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text{
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.num-style {
+    height: 20px;
+    width: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.main-div {
+    display: flex;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.top-text-style {
+    text-align: center;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.blog-text-style {
+    width: 4rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    height: 22px;
+}
+.wid-left{
+    width: 70%;
+    height: 100%;
+}
+.wid-right {
+    width: 30%;
+    height: 100%;
+}
+.img-card-left {
+    box-shadow: 0px 0px 10px black;
+    height: 35rem;
+    margin-bottom: 2rem;
+}
+.container {
+    padding: 1rem;
+}
+.btn {
+    background-color: rgb(161, 145, 176);
+    text-align: center;
+    padding: 5px;
+}
+.btn:hover {
+    background-color:darkcyan;
+    color: black;
+    cursor: pointer;
+}
+.img-card-right {
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 2rem;
+}
+.text-style {
+    width: auto;
+    height: 2rem;
+    padding: 1rem;
+}
+.box-style {
+    width: auto;
+    height: 3rem;
+    padding: 1rem;
+    background-color: violet;
+    border-bottom: 1px solid;
+}
+.box-style:hover {
+    background-color: cornflowerblue;
+    /* color: white; */
+    width: auto;
+    height: 3rem;
+}
+.black-box {
+    text-align: center;
+    font-size: 14px;
+    width: 4rem;
+    height: 2rem;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    padding-top: 10px;
+    text-wrap: nowrap;
+}
+.hr-style {
+    border-top: 1px solid white ;
+}
+.grey-box {
+    font-size: 12px;
+    text-wrap: nowrap;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+.common-div-style {
+    display: flex;
+    padding-left: 1rem;
+    gap: 2px;
+    font-size: 13px;
+    padding-right: 10px;
+}
+.footer {
+    width: 100%;
+    height: 15rem;
+    background-color: rgb(232, 143, 34);
+    color: blueviolet;
+}
+.ftr-txt {
+    gap: 5px;
+    display: flex; 
+    margin-left: 1rem
+}
+.btn-style {
+    background-color: black;
+    color: white;
+    width: 5rem;
+    height: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.btn-style:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
